@@ -33,7 +33,7 @@ header h1 {
 .container {
 	max-width: 500px;
 	margin: 30px auto;
-	background: linear-gradient(145deg, #8b5cf6, #7c3aed);
+	background: linear-gradient(20deg, #8b5cf6, #7c3aed);
 	border-radius: 20px;
 	padding: 25px;
 	box-shadow: 0 15px 35px rgba(139, 92, 246, 0.3), 0 5px 15px rgba(0, 0, 0, 0.2),
@@ -171,6 +171,7 @@ header h1 {
 .text-red {
 	color: red;
 	font-size: x-large;
+	font-weight: bold;
 }
 
 /* Items */
@@ -190,7 +191,7 @@ header h1 {
 	padding: 10px 15px;
 	margin: 0 5px 20px;
 	font-weight: 700;
-	color: #fff;
+	color: white;
 }
 
 @media (max-width: 500px) {
