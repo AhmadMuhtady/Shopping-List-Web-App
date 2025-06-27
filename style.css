@@ -129,7 +129,7 @@ header h1 {
 }
 
 .btn {
-	background-color: #333;
+	background-color: #210b2c;
 	color: #fff;
 	border: none;
 	border-radius: 25px;
@@ -148,6 +148,7 @@ header h1 {
 	transform: translateY(-2px);
 	box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5),
 		inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	color: #210b2c;
 }
 
 .btn-link {
@@ -176,7 +177,7 @@ header h1 {
 	margin-top: 20px;
 	width: 100%;
 	font-size: 16px;
-	background-color: #333;
+	background-color: #210b2c;
 	color: #fff;
 	backdrop-filter: blur(10px);
 	border: 1px solid rgba(255, 255, 255, 0.2);
@@ -200,6 +201,7 @@ header h1 {
 	transform: translateY(-2px);
 	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15),
 		inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	color: #210b2c;
 }
 
 .text-red {
@@ -282,4 +284,15 @@ header h1 {
 	.items li {
 		width: 100%;
 	}
+}
+
+.mark-item {
+	color: rgb(0, 244, 0);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.mark-item:hover {
+	color: white;
+	background-color: rgb(0, 244, 0);
 }
