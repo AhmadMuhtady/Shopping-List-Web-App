@@ -13,7 +13,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	color: #333;
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background: #667eea;
 }
 
 header {
@@ -295,4 +295,10 @@ header h1 {
 .mark-item:hover {
 	color: white;
 	background-color: rgb(0, 244, 0);
+}
+
+.marked {
+	text-decoration: line-through;
+	color: #210b2c;
+	opacity: 0.8;
 }
