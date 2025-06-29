@@ -145,6 +145,8 @@ const onAddItemSubmit = (e) => {
 	itemInput.focus();
 };
 
+const addItemToStorage = (item) => {};
+
 const addItemToDOM = (item) => {
 	const li = document.createElement('li');
 	const itemSpan = document.createElement('span');
