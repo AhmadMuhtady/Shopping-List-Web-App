@@ -302,3 +302,8 @@ header h1 {
 	color: #210b2c;
 	opacity: 0.8;
 }
+
+li.editMode span {
+	color: #ef4444;
+	opacity: 0.8;
+}
